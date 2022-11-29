@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #222;
+}
+
+.nav {
+  display: flex;
+  background-color: #fff;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-left: 6rem;
+}
+.logo h2 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.logo:hover {
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  align-self: center;
+  margin-right: 4rem;
+}
+
+.link {
+  display: flex;
+  padding-top: 0.5rem;
+}
+
+.link a,
+.subs {
+  margin-left: 2rem;
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link a:hover {
+  color: #222;
+  border-bottom: 3px solid rgb(117, 183, 237);
+}
+
+.subs {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 2rem;
+  background-color: rgb(201, 223, 240);
+  transition: 0.5s;
+}
+
+.subs:hover {
+  background-color: rgb(33, 118, 188);
+  color: #fff;
+}
+
+.latnew {
+  font-size: 4rem;
+  margin-left: 16rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.firstimg {
+  width: 40rem;
+  border-radius: 1rem;
+}
+
+.firstblock {
+  display: flex;
+}
+
+.sidefrt {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.latnew2 {
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  color: rgb(117, 183, 237);
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.headfp {
+  font-size: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+.firstbtn {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  width: 24rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 1rem;
+  font-size: large;
+  font-weight: bold;
+  background-color: rgb(157, 202, 234);
+  transition: 0.5s;
+}
+
+.firstbtn:hover {
+  background-color: rgb(33, 118, 188);
+  color: #fff;
+}
+
+.firstpage {
+  display: flex;
+  justify-content: center;
+}
+
+.secpage {
+  display: flex;
+  flex-direction: row;
+  margin: 8rem 0;
+  justify-content: center;
+}
+
+.sechead {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin-right: 2rem;
+}
+
+.sechead h2 {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.sechead p {
+  font-size: small;
+  font-weight: lighter;
+  color: #fff;
+}
+
+.joinbtn {
+  width: 15rem;
+  color: #fff;
+  font-weight: bold;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 2rem;
+  border: 2px solid #fff;
+  background-color: #222;
+  margin-bottom: 1rem;
+  transition: 0.5s;
+}
+
+.joinbtn:hover {
+  background-color: #333;
+  border-color: #333;
+}
+
+.subss {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 2rem;
+  background-color: rgb(201, 223, 240);
+  margin-left: 1rem;
+  transition: 0.5s;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.subss:hover {
+  background-color: rgb(33, 118, 188);
+  color: #fff;
+}
+
+.input {
+  width: 12.7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.75rem;
+  border: 2px solid #222;
+}
+
+.input::placeholder {
+  font-weight: bold;
+  color: #222;
+}
+
+.tablemain {
+  border-top: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.firsttable {
+  width: 60rem;
+  margin-bottom: 10rem;
+}
+
+.firsttable,
+th,
+td {
+  border: 2px solid #fff;
+  border-collapse: collapse;
+  padding: 1rem;
+  font-size: large;
+  color: #000;
+}
+
+.newshead {
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  font-size: 3rem;
+}
+
+th {
+  background-color: rgb(29, 115, 176);
+  color: #fff;
+  font-size: larger;
+}
+
+td {
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+  /* font-weight: bold; */
+  transition: 0.3s;
+  padding: 1.5rem;
+}
+
+td a {
+  text-decoration: none;
+  color: rgb(22, 122, 193);
+  transition: 0.3s;
+}
+
+td:hover,
+td a:hover {
+  background-color: #fff;
+  /* font-weight: bold; */
+  color: rgb(22, 122, 193);
+}
